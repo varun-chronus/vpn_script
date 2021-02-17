@@ -28,7 +28,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 if [ -z "$FORTICLIENT_PATH" ]; then
-  FORTICLIENT_PATH=`uname -r | grep -q 64 && echo $(locate forticlientsslvpn_cli | grep 64bit) || echo $(locate forticlientsslvpn_cli | grep 32bit)`
+  FORTICLIENT_PATH=`uname -r | grep -q 64 && echo $(locate forticlientsslvpn_cli | grep 64bit) || echo $(locate forticlientsslvpn_cli | grep 64bit)`
   if [ ! -f $FORTICLIENT_PATH ]; then
     echo "Tried to locate Forticlient SSL VPN Cli binary, but failed."
     echo "Specify it at variable FORTCLIENT_PATH"
