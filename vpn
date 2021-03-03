@@ -9,7 +9,7 @@
 
 FORTICLIENT_PATH=""
 
-# IMPORTANT: If first run, make sure forticlient and installed. Install expect : sudo apt-get install expect
+# IMPORTANT: If first run, make sure forticlient is installed. Install expect : sudo apt-get install expect
 
 
 # VPN Credentials
