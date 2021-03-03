@@ -6,7 +6,11 @@
 # CONFIGURATION
 
 # If empty - script will take some simple logic to locate appropriate binary.
+
 FORTICLIENT_PATH=""
+
+# IMPORTANT: If first run, make sure forticlient and installed. Install expect : sudo apt-get install expect
+
 
 # VPN Credentials
 VPN_HOST="vpn-ip:10443"
